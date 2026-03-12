@@ -168,6 +168,10 @@ section {
   color: var(--gray-text);
 }
 
+.hero-text h2 span {
+  color: white;
+}
+
 .social-links {
   display: flex;
   gap: 1rem;
@@ -292,9 +296,13 @@ section {
   border-radius: 20px;
 }
 
+.skills li:hover {
+  background-color: rgba(20, 101, 223, 0.267);
+  color: var(--primary-color);
+}
 
 
-.lenguajes-container {
+.lenguajes-content {
   display: flex;
   flex-direction: column;
   gap: 2.5rem;
